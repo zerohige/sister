@@ -1,0 +1,3 @@
+sebuah sistem menerima masukan bilangan bulat sebanyak 10 angka melalui argument program. Kemudian menampilkan angka tersebut dalam bentuk terurut secara ascending dan descending
+
+https://forms.gle/SYkadZP6FamXsx5LA
