@@ -7,7 +7,7 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="footer-copy-right">
-					<p>Copyright © <?php echo date('Y') ?>. Sistem Penyimpanan Berkas Terdistribusi. Kelompok 8.</p>
+					<p style="margin: 0;">&copy; <?php echo date('Y') ?>. <span style="font-weight: bold;">Kelompok 4</span> | Sistem Penyimpanan Berkas Terdistribusi</p>
 				</div>
 			</div>
 		</div>

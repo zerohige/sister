@@ -169,7 +169,7 @@
 
                         <h4><a class="cards-hd-dn" href="#"><?php echo $s['petugas_nama']; ?></a></h4>
                         <h5>Petugas</h5>
-                        <p class="ctn-cards">Pengelolaan file jadi lebih mudah dengan sistem yang dibuat oleh kelompok 8 ahayy.</p>
+                        <p class="ctn-cards">NIM: 2201020026</p>
                     </div>
                 </div>
 

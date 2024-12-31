@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 29 Des 2024 pada 10.01
+-- Waktu pembuatan: 31 Des 2024 pada 09.53
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -112,7 +112,7 @@ CREATE TABLE `petugas` (
 
 INSERT INTO `petugas` (`petugas_id`, `petugas_nama`, `petugas_username`, `petugas_password`, `petugas_foto`) VALUES
 (8, 'Zayus Muazrian', '2201020002', '25d9fed238404891fb5bcac2c6c7665c', ''),
-(9, 'Rifana Bima Pradifa', '2201020026', '25d9fed238404891fb5bcac2c6c7665c', '');
+(9, 'Rifana Bima Pradifa', '2201020026', '03f2fa2385fe8633254e9bd7475e19df', '');
 
 -- --------------------------------------------------------
 
@@ -171,7 +171,8 @@ CREATE TABLE `user` (
 INSERT INTO `user` (`user_id`, `user_nama`, `user_username`, `user_password`, `user_foto`) VALUES
 (16, 'Muhajirul Fajri', '2201020039', '25d9fed238404891fb5bcac2c6c7665c', ''),
 (17, 'Enjelita Br Ginting', '2201020035', '25d9fed238404891fb5bcac2c6c7665c', ''),
-(18, 'Abdul Arafah', '2201020058', '25d9fed238404891fb5bcac2c6c7665c', '');
+(18, 'Abdul Arafah', '2201020058', '25d9fed238404891fb5bcac2c6c7665c', ''),
+(19, 'Rifana Bima Pradifa', '2201020026', '03f2fa2385fe8633254e9bd7475e19df', '');
 
 --
 -- Indexes for dumped tables
@@ -251,7 +252,7 @@ ALTER TABLE `riwayat`
 -- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

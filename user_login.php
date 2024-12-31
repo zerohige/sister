@@ -22,6 +22,10 @@
             margin: 0;
         }
 
+        .form-group {
+            text-align: left;
+        }
+        
         .login-container {
             background: #ffffff;
             padding: 40px;
@@ -108,7 +112,7 @@
         <br><a href="index.php">Kembali</a>
 
         <div class="login-footer">
-            <p>&copy; <?php echo date('Y') ?>. Sistem Penyimpanan Berkas Terdistribusi. Kelompok 8.</p>
+            <p>&copy; <?php echo date('Y') ?>. Sistem Penyimpanan Berkas Terdistribusi<br><span style="font-weight: bold;">Kelompok 4</span></p>
         </div>
     </div>
 
