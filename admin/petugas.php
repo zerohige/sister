@@ -63,7 +63,7 @@
                                 <?php 
                                 if($p['petugas_foto'] == ""){
                                     ?>
-                                    <img class="img-user" src="../gambar/sistem/user.png">
+                                    <img class="img-user" src="../gambar/sistem/user4.png">
                                     <?php
                                 }else{
                                     ?>

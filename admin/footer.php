@@ -3,8 +3,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="footer-content" style="text-align: center; font-size: 14px; line-height: 1.5;">
-                    <p style="margin: 0;">&copy; <?php echo date('Y') ?> Sistem Penyimpanan Berkas Terdistribusi | <span style="font-weight: bold;">Kelompok 9</span></p>
-                    <p style="margin: 5px 0 0;">Dibangun dengan <span style="color: #e74c3c; font-weight: bold;">&#10084;</span> oleh Kelompok 9</p>
+                    <p style="margin: 0;">&copy; <?php echo date('Y') ?> <span style="font-weight: bold;">Kelompok 4</span> | Sistem Penyimpanan Berkas Terdistribusi</p>
                 </div>
             </div>
         </div>

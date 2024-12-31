@@ -45,7 +45,7 @@
                     <tr>
                         <th width="1%">No</th>
                         <th>Nama</th>
-                        <th>Katerangan</th>
+                        <th>Keterangan</th>
                         <th class="text-center" width="10%">OPSI</th>
                     </tr>
                 </thead>
