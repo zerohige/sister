@@ -111,7 +111,7 @@
             <button type="submit" class="btn btn-primary btn-block">Login</button>
         </form>
 
-        <a href="index.php">Kembali</a>
+        <br><a href="index.php">Kembali</a>
 
         <div class="login-footer">
             <p>&copy; <?php echo date('Y'); ?>. All rights reserved. Sistem Penyimpanan Berkas Terdistribusi</p>

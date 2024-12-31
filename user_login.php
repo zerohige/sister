@@ -105,7 +105,7 @@
             <input type="submit" class="btn btn-primary btn-block" value="Login">
         </form>
 
-        <a href="index.php">Kembali</a>
+        <br><a href="index.php">Kembali</a>
 
         <div class="login-footer">
             <p>&copy; <?php echo date('Y') ?>. Sistem Penyimpanan Berkas Terdistribusi. Kelompok 8.</p>
