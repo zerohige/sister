@@ -42,7 +42,7 @@
                 <div class="col-lg-6">
                     <h1>Sistem Penyimpanan Berkas Terdistribusi</h1>
                     <!-- <p>Manajemen file dengan mudah dan cepat.</p> -->
-                    <p>Solusi efisien untuk menejemen berkas.</p>
+                    <p>Solusi efisien untuk manejemen berkas.</p>
 
                     <a href="user_login.php">Login User</a>
                     <a href="login.php">Login Admin / Petugas</a>
