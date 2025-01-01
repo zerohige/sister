@@ -1,0 +1,149 @@
+body {
+    font-family: poppins, sans-serif;
+    background: #f4f4f9;
+    color: #333;
+}
+
+.navbar-custom {
+    background: linear-gradient(45deg, #1d3557, #457b9d);
+    /* background: linear-gradient(45deg, #333333, #cccccc); */
+    border-radius: 0;
+    padding: 15px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+    color: #ffd700;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > li > a:active {
+    background-color: transparent;
+    color: #ffd700;
+    outline: none;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('banner-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.banner a {
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    /* background: #e63946; */
+    background: #2E5077;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.banner a:hover {
+    background: #1d3557;
+    background: #F96E2A;
+    text-decoration: none;
+}
+
+.banner img {
+    max-width: 60%;
+}
+
+.features {
+    background: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.features p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* CSS contact.php saja */
+.contact-page body, .contact-page html {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-page footer {
+    margin-top: 0;
+}
+
+.contact-page section#contact {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.contact-page .banner {
+    margin-bottom: 0;
+}
+
+.contact-page .navbar-custom {
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+.contact-page .navbar-custom .navbar-brand,
+.contact-page .navbar-custom .navbar-nav > li > a {
+    padding-bottom: 10px;
+}
+
+.btn-whatsapp {
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    background: #1d3557;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn-whatsapp:hover {
+    background: #139442;
+    text-decoration: none;
+    color: #fff;
+}

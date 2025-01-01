@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Sistem Penyimpanan Berkas Terdistribusi</title>
+    <title>Sistem Penyimpanan Berkas Terdistribusi - Kontak</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/konfigurasi.css">
 </head>
-<body>
+<body class="contact-page"> 
     <nav class="navbar navbar-custom">
         <div class="container">
             <div class="navbar-header">
@@ -27,39 +27,20 @@
 
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Home</a></li>
-                    <!-- <li><a href="#features">Features</a></li> -->
-                    <!-- <li><a href="#contact">Contact</a></li> -->
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h1>Sistem Penyimpanan Berkas Terdistribusi</h1>
-                    <!-- <p>Manajemen file dengan mudah dan cepat.</p> -->
-                    <p>Solusi efisien untuk menejemen berkas.</p>
-
-                    <a href="user_login.php">Login User</a>
-                    <a href="login.php">Login Admin / Petugas</a>
-                </div>
-                <div class="col-lg-6">
-                    <img src="assets/img/logo/archive.png" alt="Illustration">
-                </div>
-            </div>
+    <section id="contact" style="height: 100vh; display: flex; justify-content: center; align-items: center; background-color: #fff;">
+        <div style="text-align: center;">
+            <a href="https://wa.me/6282154061194" class="btn-whatsapp" target="_blank">
+                Chat dengan Admin di WhatsApp   
+            </a>
         </div>
-    </div>
-
-    <!-- <section class="features" id="features">
-        <div class="container">
-            <h2>Why Choose Us?</h2>
-            <p>Kami memberikan solusi manajemen file yang modern, aman, dan terdistribusi untuk kebutuhan Anda.</p>
-        </div>
-    </section> -->
+    </section>
 
     <footer style="background: #1d3557; color: #fff; padding: 20px 0; text-align: center;">
         <p style="margin: 0;">&copy; <?php echo date('Y') ?>. <span style="font-weight: bold;">Kelompok 4</span> | Sistem Penyimpanan Berkas Terdistribusi</p>

@@ -121,12 +121,11 @@
                                                         <?php 
                                                     }
                                                     ?>
-
-                                                </div>
-                                            </li>
-                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </div>
                                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                     <div class="header-right-info">
                                         <ul class="nav navbar-nav mai-top-nav header-right-menu">
