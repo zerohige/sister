@@ -18,6 +18,7 @@
     <style type="text/css">
         .navbar-custom {
             background: linear-gradient(45deg, #1d3557, #457b9d);
+            /* background: linear-gradient(45deg, #333333, #cccccc); */
             border-radius: 0;
             padding: 15px 0;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -32,6 +33,21 @@
         .navbar-custom .navbar-nav > li > a {
             color: #fff;
             font-weight: 500;
+            /* transition: all 0.3s ease; */
+        }
+
+        .navbar-custom .navbar-nav > li > a:hover {
+            color: #ffd700;
+            text-decoration: none;
+            background-color: transparent;
+            /* transform: scale(1.1); */
+        }
+
+        .navbar-custom .navbar-nav > li > a:focus,
+        .navbar-custom .navbar-nav > li > a:active {
+            background-color: transparent;
+            color: #ffd700;
+            outline: none;
         }
 
         .banner {
@@ -110,7 +126,7 @@
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#features">Features</a></li>
+                    <!-- <li><a href="#features">Features</a></li> -->
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -134,12 +150,12 @@
         </div>
     </div>
 
-    <section class="features" id="features">
+    <!-- <section class="features" id="features">
         <div class="container">
             <h2>Why Choose Us?</h2>
             <p>Kami memberikan solusi manajemen file yang modern, aman, dan terdistribusi untuk kebutuhan Anda.</p>
         </div>
-    </section>
+    </section> -->
 
     <footer style="background: #1d3557; color: #fff; padding: 20px 0; text-align: center;">
         <p style="margin: 0;">&copy; <?php echo date('Y') ?>. <span style="font-weight: bold;">Kelompok 4</span> | Sistem Penyimpanan Berkas Terdistribusi</p>
