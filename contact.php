@@ -17,7 +17,7 @@
     <nav class="navbar navbar-custom">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Kelompok 4</a>
+                <a class="navbar-brand" href="about.php">Kelompok 4</a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
         </div>
