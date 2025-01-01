@@ -33,14 +33,13 @@
         .navbar-custom .navbar-nav > li > a {
             color: #fff;
             font-weight: 500;
-            /* transition: all 0.3s ease; */
+            transition: all 0.3s ease;
         }
 
         .navbar-custom .navbar-nav > li > a:hover {
             color: #ffd700;
             text-decoration: none;
             background-color: transparent;
-            /* transform: scale(1.1); */
         }
 
         .navbar-custom .navbar-nav > li > a:focus,
@@ -77,6 +76,7 @@
             padding: 15px 30px;
             color: #fff;
             background: #e63946;
+            background: #2E5077;
             border-radius: 5px;
             text-transform: uppercase;
             font-weight: bold;
@@ -86,6 +86,7 @@
 
         .banner a:hover {
             background: #1d3557;
+            background: #F96E2A;
             text-decoration: none;
         }
 
@@ -138,13 +139,14 @@
             <div class="row">
                 <div class="col-lg-6">
                     <h1>Sistem Penyimpanan Berkas Terdistribusi</h1>
-                    <p>Manajemen file dengan mudah dan cepat.</p>
+                    <!-- <p>Manajemen file dengan mudah dan cepat.</p> -->
+                    <p>Solusi efisien untuk menejemen berkas.</p>
 
                     <a href="user_login.php">Login User</a>
                     <a href="login.php">Login Admin / Petugas</a>
                 </div>
                 <div class="col-lg-6">
-                    <img src="assets/img/logo/umrah.png" alt="Illustration">
+                    <img src="assets/img/logo/archive.png" alt="Illustration">
                 </div>
             </div>
         </div>
