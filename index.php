@@ -128,7 +128,7 @@
                     <a href="login.php">Login Admin / Petugas</a>
                 </div>
                 <div class="col-lg-6">
-                    <img src="umrah.png" alt="Illustration">
+                    <img src="assets/img/logo/umrah.png" alt="Illustration">
                 </div>
             </div>
         </div>
