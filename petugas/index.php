@@ -150,7 +150,7 @@
                 <div class="single-cards-item">
                     <div class="single-product-image">
                         <a href="#">
-                            <img src="../assets/img/product/profile-bg.jpg" alt="">
+                            <img src="../assets/img/product/archive.jpg" alt="">
                         </a>
                     </div>
 

@@ -18,9 +18,7 @@ body {
     font-weight: 600;
 }
 
-.navbar-custom .navbar-nav > li > a {
-    color: #fff;
-    font-weight: 500;
+.navbar-custom .navbar-header > .navbar-brand {
     transition: all 0.3s ease;
 }
 
@@ -28,6 +26,12 @@ body {
     color: #ffd700;
     text-decoration: none;
     background-color: transparent;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.3s ease;
 }
 
 .navbar-custom .navbar-nav > li > a:hover {
